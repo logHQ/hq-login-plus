@@ -167,7 +167,7 @@ function hqloginplus_title () {
 	$hqloginplus_options = hqloginplus_get_options ();
 	
 	if (empty ($hqloginplus_options['hqloginplus_poweredby'])) {
-	    echo printf (__('Powered by %s', HQLOGINPLUS_LOCAL), get_option('blogname'));
+	    echo printf (__('%s', HQLOGINPLUS_LOCAL), get_option('blogname'));
 	} else {
 		echo $hqloginplus_options['hqloginplus_poweredby'];
 	}
