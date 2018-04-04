@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: HQ Login Plus
-Plugin URI: https://github.com/loghq/hqloginplus/
+Plugin URI: https://github.com/loghq/hq-login-plus/
 Description: HQ Login Plus for WordPress login.
 Author: LogHQ
 Author URI: https://login.plus/
@@ -12,7 +12,7 @@ Tags: admin, login
 Requires at least: 3.0
 Tested up to: 4.9.2
 Stable tag: 0.1
-Donate link: http://login.plus/donate/
+Donate link: https://paypal.me/loghq/
 */
 
 /*
