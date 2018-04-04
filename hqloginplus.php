@@ -455,6 +455,8 @@ function hq_login_plus_login_head_img() {
         
  
         $image = wp_get_attachment_image_src( get_theme_mod( 'custom_logo' ), 'full' );
+        $img_height = absint( $image[2] ) + 35;
+        $padding_top =  absint( $image[2] ) + 10;
         ?>
         <style>
             .login h1 a {
@@ -462,8 +464,11 @@ function hq_login_plus_login_head_img() {
                 background-repeat: no-repeat !important;
                 -webkit-background-size: <?php echo absint( $image[1] )?>px !important;
                 background-size: <?php echo absint( $image[1] ) ?>px !important;
-                height: <?php echo absint( $image[2] ) ?>px !important;
+                height: <?php echo $img_height; ?>px !important;
                 width: <?php echo absint( $image[1] ) ?>px !important;
+                padding-top: <?php echo ?>px !important;
+                font-size: 16px;
+                font-weight:100;
             }
         </style>
         <?php
