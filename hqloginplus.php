@@ -445,14 +445,14 @@ function hq_login_plus_logo_url_title() {
     return $blog_title;
     
 }
-add_filter( 'login_headertitle', 'hq_login_plus_logo_url_title' );
 
 
 
 
 function hq_login_plus_login_head_img() {
  
-    if ( has_custom_logo() ) :
+    if ( has_custom_logo() ){
+        
  
         $image = wp_get_attachment_image_src( get_theme_mod( 'custom_logo' ), 'full' );
         ?>
@@ -466,7 +466,12 @@ function hq_login_plus_login_head_img() {
             }
         </style>
         <?php
-    endif;
+    } else {
+            
+        add_filter( 'login_headertitle', 'hq_login_plus_logo_url_title' );
+            
+    }
+    
 }
  
 add_action( 'login_head', 'hq_login_plus_login_head_img', 100 );
