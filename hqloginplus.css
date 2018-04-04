@@ -42,6 +42,10 @@ body {
     text-indent: 0;
     text-align: center;
     width: 100%;
+    
+    font-size: 31px;
+    font-weight: 500;
+    
 }
 #login{
 	background: rgba(29, 102, 157, 0.6);
