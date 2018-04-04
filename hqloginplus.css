@@ -63,6 +63,12 @@ body {
     -khtml-box-shadow:rgba(200,200,200,0.4) 0 4px 10px -1px;
     -moz-box-shadow:rgba(200,200,200,0.4) 0 4px 10px -1px;
     box-shadow:rgba(200,200,200,0.4) 0 4px 10px -1px;
+    width:320px;
+    
+    padding: 4% 0;
+    margin: 30px auto 0;
+    
+    
 }
 .login #nav a, .login #backtoblog a,form .forgetmenot label,#loginform label {color:#ffffff !important;}
 #login #nav,
