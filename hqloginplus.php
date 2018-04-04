@@ -178,7 +178,7 @@ function hqloginplus_title () {
 /**
  * 
  */
-function hqloginplus_admin_add_page () {	
+function hqloginplus_admin_add_page () {
 	
 	add_options_page ('HQ Login Plus', 'HQ Login Plus', 'manage_options', HQLOGINPLUS_PAGE, 'hqloginplus_options');	
 }
@@ -434,3 +434,15 @@ add_action ('login_head', 'hqloginplus');
 //add_filter ('login_headerurl', 'hqloginplus_url');
 //add_filter ('login_headertitle', 'hqloginplus_title');
 add_action( 'in_admin_footer', 'hqloginplus_footer' );
+
+function hq_login_plus_logo_url() {
+    return home_url();
+}
+add_filter( 'login_headerurl', 'hq_login_plus_logo_url' );
+
+function hq_login_plus_logo_url_title() {
+    $blog_title = get_bloginfo();
+    return $blog_title;
+    
+}
+add_filter( 'login_headertitle', 'hq_login_plus_logo_url_title' );
