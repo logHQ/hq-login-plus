@@ -465,8 +465,8 @@ function hq_login_plus_login_head_img() {
                 -webkit-background-size: <?php echo absint( $image[1] )?>px !important;
                 background-size: <?php echo absint( $image[1] ) ?>px !important;
                 height: <?php echo $img_height; ?>px !important;
-                width: <?php echo absint( $image[1] ) ?>px !important;
-                padding-top: <?php echo ?>px !important;
+                width: <?php echo absint( $image[1] ); ?>px !important;
+                padding-top: <?php echo $padding_top; ?>px !important;
                 font-size: 16px;
                 font-weight:100;
             }
