@@ -38,11 +38,10 @@ body {
     background: none repeat scroll 0 0 transparent;
     border-radius: 3px 3px 3px 3px;
     color: #FFFFFF;
-    height: 67px;
-    margin: 10px auto 0 20px;
     text-decoration: none;
     text-indent: 0;
-    width: 312px;
+    text-align: center;
+    width: 100%;
 }
 #login{
 	background: rgba(29, 102, 157, 0.6);
