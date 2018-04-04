@@ -458,11 +458,12 @@ function hq_login_plus_login_head_img() {
         ?>
         <style>
             .login h1 a {
-                background-image: url(<?php echo esc_url( $image[0] ); ?>);
-                -webkit-background-size: <?php echo absint( $image[1] )?>px;
-                background-size: <?php echo absint( $image[1] ) ?>px;
-                height: <?php echo absint( $image[2] ) ?>px;
-                width: <?php echo absint( $image[1] ) ?>px;
+                background-image: url(<?php echo esc_url( $image[0] ); ?>) !important;
+                background-repeat: no-repeat !important;
+                -webkit-background-size: <?php echo absint( $image[1] )?>px !important;
+                background-size: <?php echo absint( $image[1] ) ?>px !important;
+                height: <?php echo absint( $image[2] ) ?>px !important;
+                width: <?php echo absint( $image[1] ) ?>px !important;
             }
         </style>
         <?php
