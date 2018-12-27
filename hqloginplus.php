@@ -145,6 +145,7 @@ function hqloginplus () {
 	}
 	*/
 	echo '#loginform p {color: white !important;}'; // jetpack msg font color fix
+	echo 'a{color:#66ffff;}';
 	echo '</style>';
 }
 
