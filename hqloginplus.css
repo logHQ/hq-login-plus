@@ -100,3 +100,11 @@ body form .input{
 .login label {
     color: #ffffff;
 }
+
+#loginform #jetpack-sso-wrap p {
+    color: #ffffff !important;
+}
+#login a {
+    color:#ffffff !important;
+}
+
