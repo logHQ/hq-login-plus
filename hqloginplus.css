@@ -15,6 +15,7 @@ body {
 	height:100%;
         background: url("/wp-content/plugins/hqloginplus/images/save_mountains.jpg") no-repeat scroll left top transparent;
         background-size:cover;
+	background-attachment:fixed;
 }
 
 
