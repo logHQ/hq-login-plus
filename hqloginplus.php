@@ -474,7 +474,7 @@ function hq_login_plus_login_head_img() {
         <?php
     } else {
             
-        add_filter( 'login_headerheader', 'hq_login_plus_logo_url_title' );
+        add_filter( 'login_headertext', 'hq_login_plus_logo_url_title' );
             
     }
     
