@@ -434,7 +434,7 @@ add_action ('admin_menu', 'hqloginplus_admin_add_page');
 add_action ('login_head', 'hqloginplus');
 //add_filter ('login_headerurl', 'hqloginplus_url');
 //add_filter ('login_headertitle', 'hqloginplus_title');
-add_action( 'in_admin_footer', 'hqloginplus_footer' );
+// add_action( 'in_admin_footer', 'hqloginplus_footer' );
 
 function hq_login_plus_logo_url() {
     return home_url();
